@@ -1,0 +1,28 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ .Site.Title }}</title>
+	<link rel="stylesheet" href="{{"css/style.css"|relURL}}">
+	<meta name="author" content="{{ .Site.Params.author }}">
+	<meta name="description" content="
+	  {{- with .Page.Description -}}
+	    {{ . }}
+	  {{- else -}}
+	    {{ .Site.Params.description }}
+	  {{- end -}}">
+</head>
+
+<!-- Icons -->
+{{ if isset $.Site.Params "favicon" }}
+  <link rel="shortcut icon" href="{{ $.Site.Params.favicon | absURL }}">
+{{ else }}
+  <link rel="shortcut icon" href="{{ printf "img/theme-colors/%s.png" (or .Params.color $.Site.Params.ThemeColor | default "green") | absURL }}">
+  <link rel="apple-touch-icon" href="{{ printf "img/theme-colors/%s.png" (or .Params.color $.Site.Params.ThemeColor | default "orange") | absURL }}">
+{{ end }}
+
+<!-- RSS -->
+{{ with .OutputFormats.Get "RSS" }}
+  <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+{{ end }}
+
+

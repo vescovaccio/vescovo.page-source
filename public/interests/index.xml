@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Interests on Vescovo Page</title>
+    <link>https://vescovaccio.github.io/interests/</link>
+    <description>Recent content in Interests on Vescovo Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language><atom:link href="https://vescovaccio.github.io/interests/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jazz</title>
+      <link>https://vescovaccio.github.io/interests/jazz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vescovaccio.github.io/interests/jazz/</guid>
+      <description>
+Description &amp;hellip;
+Tech used item item item </description>
+    </item>
+    
+    <item>
+      <title>Robotics</title>
+      <link>https://vescovaccio.github.io/interests/robotics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vescovaccio.github.io/interests/robotics/</guid>
+      <description>
+Description &amp;hellip;
+Tech used item item item </description>
+    </item>
+    
+  </channel>
+</rss>
