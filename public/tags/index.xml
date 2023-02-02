@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Vescovo Page</title>
-    <link>https://vescovaccio.github.io/tags/</link>
+    <link>https://vescovo.page/tags/</link>
     <description>Recent content in Tags on Vescovo Page</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-GB</language><atom:link href="https://vescovaccio.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-GB</language><atom:link href="https://vescovo.page/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
